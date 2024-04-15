@@ -1,7 +1,20 @@
-# Vue 3 + Vite
+# ACME Learning Center Web Application
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Summary
+ACME Learning Center Application, illustrating REST client with axios on a simulated API with json-server, using Vue Framework and PrimeVue UI component library. The application also shows how to support in-app navigation routing with Vue Router.
 
-## Recommended IDE Setup
+## Features
+- REST client with axios
+- Simulated API with json-server
+- PrimeVue UI Material Design components
+- In-app navigation routing with Vue Router
+- Reusable components
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+## Dependencies
+- Vue
+- Vue Router
+- Axios
+- json-server
+- PrimeVue
+- PrimeIcons
+- PrimeFlex
