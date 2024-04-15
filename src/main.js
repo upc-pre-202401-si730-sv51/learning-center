@@ -34,6 +34,7 @@ import 'primeicons/primeicons.css';
 
 import 'primevue/resources/themes/md-light-indigo/theme.css';
 import 'primevue/resources/primevue.min.css';
+import router from "./router/index.js";
 
 createApp(App)
     .use(PrimeVue, {ripple: true})
@@ -62,4 +63,5 @@ createApp(App)
     .component('pv-textarea', Textarea)
     .component('pv-toolbar', Toolbar)
     .component('pv-toast', Toast)
+    .use(router)
     .mount('#app')
