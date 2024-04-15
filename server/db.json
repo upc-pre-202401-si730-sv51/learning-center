@@ -1,0 +1,40 @@
+{
+  "tutorials": [
+    {
+      "id": "1",
+      "title": "The Vue Tutorials",
+      "description": "The best tips and tutorials for Vue.",
+      "published": true
+    },
+    {
+      "id": "2",
+      "title": "Amazing Microsoft .NET",
+      "description": "Weekly tips and tutorials for .NET.",
+      "published": false
+    },
+    {
+      "id": "3",
+      "title": "JavaScript for All",
+      "description": "Tips and tricks about JavaScript from scratch.",
+      "published": false
+    },
+    {
+      "id": "4",
+      "title": "Vue Unleashed",
+      "description": "Vue at its best.",
+      "published": false
+    },
+    {
+      "id": "5",
+      "title": "ASP.NET Code Advanced",
+      "description": "What nobody tells you about ASP.NET Core.",
+      "published": false
+    },
+    {
+      "id": "f595",
+      "title": "Vue for Experts",
+      "description": "The deep secrets of Vue",
+      "published": false
+    }
+  ]
+}
