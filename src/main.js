@@ -35,6 +35,9 @@ import 'primeicons/primeicons.css';
 import 'primevue/resources/themes/md-light-indigo/theme.css';
 import 'primevue/resources/primevue.min.css';
 import router from "./router/index.js";
+import {createPinia} from "pinia";
+
+const pinia = createPinia();
 
 createApp(App)
     .use(PrimeVue, {ripple: true})
@@ -64,4 +67,5 @@ createApp(App)
     .component('pv-toolbar', Toolbar)
     .component('pv-toast', Toast)
     .use(router)
+    .use(pinia)
     .mount('#app')
